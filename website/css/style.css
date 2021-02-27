@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+    background: #fff;
+    margin: 0;
+    
+}
+
+.header{
+    padding: 20px 0;
+
+}
+
+.header__logo{
+    float:left;
+}
+
+.header__logo a {
+    display: block;
+}
+
+.nav {
+    float: right;
+}
+
+.nav__link{
+    color: black;
+    padding: 0 20px;
+    text-decoration: none;
+}
+.nav__link:hover{
+    background: black;
+    color: white;
+    opacity: 1;
+    
+}
+
+
+.header__up{
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
