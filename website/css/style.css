@@ -3,26 +3,31 @@ body {
     font-size: 200%;
     background: #fff;
     margin: 0;
-    
 }
-
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+* html .row { height: 1%; }
+.row { display: block; }
 .header{
     padding: 20px 0;
 
 }
-
 .header__logo{
     float:left;
 }
-
 .header__logo a {
     display: block;
 }
-
 .nav {
     float: right;
 }
-
 .nav__link{
     color: black;
     padding: 0 20px;
@@ -34,12 +39,101 @@ body {
     opacity: 1;
     
 }
-
-
 .header__up{
     margin: 0 10px;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid black;
 }
+.container-well{
+	position: relative;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}	
+.container-well h2{
+	color: black;
+	font-size: 2em;
+	padding-bottom: 0.5em;
+	text-align: center;
+}
+.container-well p{
+	color: black;
+	font-size: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+}
+#port-list{
+	width: 880px;
+	height: 75px;
+	list-style: none;
+	margin: 2% auto;
+	padding: 50px;
+}
+#port-list li{
+	float: left;
+	margin: 15px;
+}
+#port-list .active{
+	background: #303030;
+	color: #ebebeb;
+}
+#port-list li span {
+	background: #ebebeb;
+	padding: 15px 30px;
+	text-decoration: none;
+	color: #303030;
+	text-transform: uppercase;
+	font-weight: 600;
+	cursor: pointer;
+}
+#port-list li span:hover{
+	background: black;
+	color: #ebebeb;
+}
+.photos{
+	margin-top:2%;
+	position:relative;
+	height:220px;
 
+}
+.inner-photos{
+	height:100%;
+	min-width:880px;
+	max-width:1180px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.photos img {
+	display:block;
+	height:220px;
+	width:220px;
+	margin-right:100px;
+	float:left;
+	transition: all 0.1s ease-in-out; /* плавный переход */
+}
+#last {
+	margin-right:0;
+}
+.photos img:hover {
+	opacity:0;
+}
+.material{
+	position: relative;
+	height:220px;
+	width: 220px;
+	margin:0;
+	float:left;
+	margin-right:100px;
+}
+.material span{
+	font-weight:5000;
+	font-size:150%;
+	height:220px;
+	width:220px;
+	position: absolute;
+	z-index:-1;
+	top:38%;
+	left:0;
+	opacity:100%;
+	text-align: center;
+}
