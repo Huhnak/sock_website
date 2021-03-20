@@ -62,6 +62,9 @@ body {
 	padding-bottom: 1em;
 	text-align: center;
 }
+.Portfolio {
+	height: 900px;
+}
 #port-list{
 	width: 880px;
 	height: 75px;
@@ -136,4 +139,49 @@ body {
 	left:0;
 	opacity:100%;
 	text-align: center;
+}
+
+.about-me {
+	position: relative;
+	height: 1080px;
+	background: url(../img/nosok_bg2.jpg) no-repeat;
+	background-size: 100%;
+}
+.about-me .title-text h2 {
+	color: white;
+	font-size: 2em;
+	padding-bottom: 0.5em;
+	text-align: center;
+	padding-top: 10%;
+}
+.clear{
+	clear:both;
+}
+
+#first-block-about-me{
+	margin-left: 9%;
+}
+.about-me .grid {
+	color: black;
+	padding-bottom: 0.5em;
+	text-align: center;
+	padding-top: 50px;
+	margin: 0 1.5% 0 1.5%; 
+	width: 25%;
+	float: left;
+	background-color: #fff;
+	border: 5px solid #303030;
+	border-radius: 15px;
+	transition: border 0.5s;
+	transition: margin-top 0.5s;
+	
+}
+.about-me .grid:hover{
+	border: 5px solid black;
+	margin: -0.2% 1.5% 0 1.5%;
+}
+
+.about-me .grid p {
+	font-size: 0.8em;
+	line-height: 0.5em;
 }
