@@ -185,3 +185,109 @@ body {
 	font-size: 0.8em;
 	line-height: 0.5em;
 }
+.contact-title{
+	text-align:center;
+}
+.null{
+	height:500px;
+	padding-left:1em;
+	margin-bottom:100px;
+}
+
+.null input[type="text"], .null input[type="email"], .null textarea{
+   width: 42%;
+   padding: 15px;
+   display: block;
+   outline: none;
+   background-color: #fff;
+   color: #888282;
+   font-size: 0.8em;
+   float:left;
+   margin-right: 2em;
+   font-family: Verdana, sans-serif;
+   font-style: italic;
+   border: 2px solid #cacaca;
+   margin-bottom:2em;
+}
+.null input[type="email"]{
+   margin-right: 0em;
+}
+.null textarea{
+   padding: 18px;
+   display: block;
+   width: 93%;
+   height:180px;
+   background-color: #fff;
+   outline: none;
+   color: #888282;
+   font-size: 0.8em;
+   font-style: italic;
+   border:2px solid #cacaca;
+   margin-bottom: 2em;
+}
+.null input[type="submit"] {
+   font-size: 1em;
+   color:#fff;
+   padding: 0.7em 1.4em;
+   margin-right: 2%;
+   background-color: black;
+   border:none;
+   display: block;
+   cursor: pointer;
+   outline: none;
+   text-transform: uppercase;
+   float: right;
+}
+.null form {
+	float:left;
+	width: 50%;
+}
+.null .inf h4 {
+	font-size: 0.8em;
+}
+.null li {
+	list-style-type: none;
+	margin: 0;
+	height: 30px;
+}
+.null img {
+	width:15px;
+	height:15px;
+	float: left;
+}
+.null li h5 {
+	float:left;
+	margin-top:0;
+	margin-bottom:0;
+	font-size:0.5em;
+	padding-left: 10px;
+	font-weight:300;
+}
+.null ul{
+	float:left;
+}
+.inf {
+	float:left;
+	border: 2px solid #cacaca;
+	padding:0.5em;
+}
+
+footer {
+   background-color: #343434;
+   padding: 24px 0;
+
+}
+.copy  {
+   font-size: 0.714em;
+   line-height: 1.7em;
+   color: #656565;
+   text-align: center;
+   height:100%;
+}
+.copy a {
+   color: white;
+}
+.copy a:hover {
+   color: #a97b7b;
+}
+
